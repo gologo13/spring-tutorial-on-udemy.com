@@ -5,10 +5,10 @@
 
 
 
-	<bean id="lion" class="Animal" p:name="Igor" p:type="lion"></bean>
-	<bean id="elephant" class="Animal" p:name="Richard" p:type="elephant"></bean>
-	<bean id="snake" class="Animal" p:name="Bob" p:type="snake"></bean>
-	<bean id="jungle" class="Jungle">
+	<bean id="lion" class="main.java.Animal" p:name="Igor" p:type="lion"></bean>
+	<bean id="elephant" class="main.java.Animal" p:name="Richard" p:type="elephant"></bean>
+	<bean id="snake" class="main.java.Animal" p:name="Bob" p:type="snake"></bean>
+	<bean id="jungle" class="main.java.Jungle">
 		<property name="largest" ref="elephant"></property>
 		<property name="animals">
 			<list>
